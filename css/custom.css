@@ -1,0 +1,45 @@
+.service-section{}
+h6{
+	color:#1280f2;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+h1{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 35px;
+}
+.service,.feature{
+	padding: 25px;
+}
+h3{
+	font-size: 24px;
+	margin:20px 0;
+}
+p{
+	font-size: 16px;
+	line-height: 1.7;
+}
+.feature-selection,.partner-section{
+	padding:100px 0;
+}
+.partner-section a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+.partner-section h1{
+    font-size: 70px;
+    font-weight: 100;
+}
+.partners{
+	text-align: center;
+}
+@media(max-width: 767px){
+	.partner-section h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+}
